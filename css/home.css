@@ -1,0 +1,149 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #111111;
+}
+header {
+    padding: 20px 7%;
+    background: #141416;
+    border-bottom: 1px solid #303036;
+}
+nav {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.logo {
+    color: #f4f4f5;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+#navigation a{
+    color : #BFC3CC;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+#navigation a:hover{
+    color: #f4f4f5
+}
+
+/* hero */
+
+.hero{
+    min-height: 510px;
+    display: flex;
+    align-items: center;
+    padding: 80pz 10%;
+    background: #0A0A0B;
+}
+
+.hero-content{
+    max-width: 720px;
+}
+.eyebrow {
+    color: #BFC3CC;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+}
+
+.hero h1{
+    font-size: clamp(42px,6vw 68px);
+    max-width: 700px;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+}
+
+.hero-description{
+    max-width: 580;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color:#BFC3CC
+}
+
+.hero-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid #45454C;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: backgrounf 0.2 ease , color 0.2s ease;
+}
+
+.btn-primary{
+    background-color: #f4f4f5;
+    color: #0a0a0a;
+    border-color: #f4f4f5;
+}
+.btn-primary:hover 
+{ 
+    background: #BFC3CC;
+    color: #0A0A0B; } 
+.btn-secondary { 
+    color: #F4F4F5; 
+    background: transparent; } 
+.btn-secondary:hover { 
+    background: #202024; 
+    color: #F4F4F5; }
+
+.about-preview,
+.activities-preview,
+.projects-preview{
+    padding: 80px 10%;
+}
+.activities-preview{
+    background-color: #0A0A0B;
+}
+
+.about-preview h2
+,.activities-preview h2, .join.cta{
+    font-size: clamp(28px 4vw, 40px);
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+.join-cta { 
+    margin: 70px 10%; 
+    padding: 55px 35px; 
+    text-align: center; 
+    background: #202024; 
+    border: 1px solid #303036; 
+    border-radius: 8px; 
+}

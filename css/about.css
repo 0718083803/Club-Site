@@ -1,0 +1,214 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #111111;
+}
+section {
+    width:85%;
+    max-width:1000px;
+    margin:45px auto;
+    padding:35px;
+    background-color: #121216;
+    border:1px solid #303036;
+    border-radius:12px;
+    box-sizing: border-box;
+}
+section h3{
+    color: #f4f4f5;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 18px;
+    letter-spacing: -0.5;
+}
+
+section p{
+    color: #bfcccb;
+    font-size: 16px;
+    line-height:1.9;
+    margin-bottom:0;
+}
+.intro h3{
+    font-size: 36px;
+}
+.intro p{
+    max-width: 780px;
+}
+
+.missionvision h3{
+    display:inline-block;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #777780;
+}
+
+.Motto{
+    text-align: center;
+    background-color: #1A1A1D;
+    padding: 45px 35px;
+}
+
+.Motto h4{
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 10px 0 20px;
+}
+.Motto p{
+    max-width: 750;
+    margin: 0 auto;
+}
+
+.values{
+    background-color: #141416;
+}
+
+.values h4{
+    color: #BFC3CC;
+    font-size: 17px;
+    font-weight: 500;
+    padding:18px;
+    background-color: #202024;
+    border-radius: 8px;
+    border:1px solid #303036;
+}
+
+.activities p{
+    padding-left: 18px;
+    border-left: 3px solid solid #777780
+}
+
+.joinus {
+    text-align:center;
+    background-color: #E5E7EB;
+    padding: 45px 30px;
+    margin-bottom: 70px;
+}
+
+.joinus h3{
+    color: #111113;
+    font-size: 32px;
+}
+
+.joinus p{
+    color:#38383f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section {
+    border-color: #55555f;
+}
+
+@media screen and (max-width: 768px) {
+    body > ul {
+    gap: 18px;
+    padding: 20px 15px;
+}
+
+section{
+    width: 92%;
+    margin: 30px auto;
+    padding: 28px;
+}
+
+.intro {
+    margin-top: 40px;
+    padding: 35px 28px;
+}
+
+.intro h3{
+    font-size: 30px;
+}
+
+section h3{
+    font-size: 25px;
+}
+
+.Motto h4{
+    font-size: 21px;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+body > ul {
+gap: 12px 18px;
+padding: 18px 12px;
+}
+
+body > ul li a {
+    font-size: 12px;
+}
+
+section {
+    width: 94%;
+    margin: 22px auto;
+    padding: 22px;
+}
+
+.intro {
+    margin-top: 30px;
+    padding: 28px 22px;
+}
+
+.intro h3 {
+    font-size: 27px;
+}
+
+section h3 {
+    font-size: 23px;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.Motto h4 {
+    font-size: 19px;
+}
+
+.values h4 {
+    font-size: 14px;
+    padding: 14px;
+}
+
+.joinus h3 {
+    font-size: 27px;
+}
+
+}
+
+.join-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #141416;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.join-button:hover {
+    background-color: #303036;
+}
